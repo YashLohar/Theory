@@ -1,0 +1,279 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/dd.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+}
+.image .nav{
+      max-width: 1000px;
+      margin: 0 auto;
+}
+.nav h2{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav ul{
+    float: right;
+}
+.nav a{
+    float:left;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 30px;
+    color: white;
+}
+.nav a:hover{
+    color: #5385c1;
+}
+.banner{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+}
+.banner h1{
+     font-weight: 100;
+     font-size: 42px;
+     margin-bottom: 10px;
+}
+.banner p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.full-wrapper{
+    width: 100%;
+    padding: 50px 0px;
+}
+.full-width{
+         max-width: 1000px;
+         padding-bottom: 10px;
+         margin: 0 auto;
+}
+.three-box .full-width .box{
+    width:30%;
+    float: left;
+    margin-right: 3%;
+    padding: 10px 5px;
+}
+.three-box .full-width .right-box{
+    float: right;
+    margin-right: 0px;
+}
+.three-box .full-width .left-box{
+    border-right: 1px solid gray;
+}
+.three-box .full-width .mid-box{
+    border-right: 1px solid gray;
+}
+.three-box .full-width .box h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5385c1;
+}
+.three-box .full-width .box p{
+    font-size: 13px;
+    line-height: 25px;
+    color: gray;
+}
+.three-box .full-width .box button{
+    width: 80px;
+    height: 40px;
+    background-color: #5385c1;
+    border: 0;
+    font-family:'Raleway', sans-serif;
+    color: white;
+}
+.big-wrapper{
+    width: 100%;
+    background-color: #5385c1;
+    padding: 40px 0px;
+}
+.big-wrapper h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.big-wrapper p{
+     text-align: center;
+     color: white;
+     font-weight: 200;
+     font-size: 12px;
+}
+.big-wrapper .full-width{
+    padding: 20px 0px;
+}
+.big-wrapper .full-width .person{
+    width: 20%;
+    padding: 10px 0px;
+    border: 1px solid white;
+    text-align:center;
+    float: left;
+    margin-right: 48px;
+    color: white;
+    
+}
+.big-wrapper .full-width .person img{
+    width: 70%;
+    border-radius: 100%;
+}
+.big-wrapper .full-width .right-person{
+    float: right;
+}
+.big-wrapper .full-width .person h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.full-wrapper h1{
+    color: #5385c1;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.full-wrapper p{
+    text-align: center;
+    color: gray;
+}
+.full-wrapper .full-width .left{
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+.full-wrapper .full-width .right{
+    width: 45%;
+    float: right;
+}
+.full-wrapper .full-width .left img,.full-wrapper .full-width .right img{
+         margin-top: 20px;
+         width: 100%;
+}
+.full-wrapper .full-width .left h2,.full-wrapper .full-width .right h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #5385c1;
+}
+.full-wrapper .full-width .left p,.full-wrapper .full-width .right p{
+    text-align: left;
+    font-size: 15px;
+}
+.full-wrapper .full-width .left button,.full-wrapper .full-width .right button{
+    width: 80px;
+    height: 40px;
+    background-color: #5385c1;
+    border: 0;
+    font-family:'Raleway', sans-serif;
+    color: white;
+}
+.full-wrapper .footer .p{
+    float: left;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5385c1;
+    margin: 0px;
+}
+.full-wrapper .footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    border-top: 1px solid gray;
+}
+.full-wrapper .footer span{
+    font-weight: bold;
+}
+.full-wrapper .footer .fa{
+    float: right;
+    margin-left: 30px;
+    color: #5385c1;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+@media only screen and (max-width:1000px){
+    .nav h2{
+        font-size: 13px;
+    }
+    .nav a{
+        float:left;
+        text-decoration: none;
+        list-style: none;
+        font-size: 10px;
+        font-weight: 200;
+        margin-left: 25px;
+        color: white;
+    }
+    .banner h1{
+         font-size: 35px;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+    .three-box .full-width .box{
+        width:100%;
+        clear: both;
+        text-align: center;
+    }
+    .big-wrapper .full-width .person{
+        width: 100%;
+        clear: both;  
+        margin-bottom: 20px;
+    }
+    .big-wrapper .full-width .right-person{
+        clear: both;
+        margin: 0 auto;
+    }
+    .full-wrapper .full-width .left{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .full-wrapper .full-width .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .full-wrapper .full-width .left h2,.full-wrapper .full-width .right h2{
+        text-align:center;
+    }
+    .full-wrapper .full-width .left p,.full-wrapper .full-width .right p{
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .big-wrapper .full-width .person{
+        width: 100%;
+        clear: both;  
+        margin-bottom: 20px;
+        border: none;
+    }
+    .big-wrapper .full-width .person img{
+        width: 50%;
+    }
+
+    .full-wrapper .footer .fa{
+        font-size: 15px;
+    }
+    .full-wrapper .footer .p{
+        font-size: 10px;
+    }
+}
