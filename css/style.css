@@ -194,7 +194,7 @@ body{
 .full-wrapper .footer{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 10px 5px;
     border-top: 1px solid gray;
 }
 .full-wrapper .footer span{
