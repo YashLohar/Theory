@@ -288,10 +288,11 @@ body{
         width: 50%;
     }
 
-    .full-wrapper .footer .fa{
-        font-size: 15px;
+     .full-wrapper .footer .fa{
+        font-size: 12px;
+        margin-right: 15px;
     }
     .full-wrapper .footer .p{
-        font-size: 10px;
+        font-size: 7px;
     }
 }
