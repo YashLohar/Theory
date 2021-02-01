@@ -191,21 +191,24 @@ body{
     color: #5385c1;
     margin: 0px;
 }
-.full-wrapper .footer{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px 10px;
-    border-top: 1px solid gray;
+.full-wrapper .footer .fa{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #5385c1;
+    font-size: 20px;
+    font-weight: 200;
 }
 .full-wrapper .footer span{
     font-weight: bold;
 }
-.full-wrapper .footer .fa{
-    float: right;
-    margin-left: 30px;
+.full-wrapper .footer .p{
+    float: left;
+    font-weight: 400;
+    font-size: 15px;
     color: #5385c1;
-    font-size: 20px;
-    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width:1000px){
