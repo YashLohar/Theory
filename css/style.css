@@ -273,6 +273,9 @@ body{
         width: 50%;
     }
 
+    .full-wrapper .footer{
+        width: 100%;
+    }
     .full-wrapper .footer .fa{
         font-size: 15px;
     }
