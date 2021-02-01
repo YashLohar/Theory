@@ -191,24 +191,21 @@ body{
     color: #5385c1;
     margin: 0px;
 }
-.full-wrapper .footer .fa{
-    float: right;
-    margin-right: 30px;
-    margin-top: 10px;
-    color: #5385c1;
-    font-size: 20px;
-    font-weight: 200;
+.full-wrapper .footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    border-top: 1px solid gray;
 }
 .full-wrapper .footer span{
     font-weight: bold;
 }
-.full-wrapper .footer .p{
-    float: left;
-    font-weight: 400;
-    font-size: 15px;
-    color: #5385c1;
+.full-wrapper .footer .fa{
+    float: right;
     margin-left: 30px;
-    margin-top: 10px;
+    color: #5385c1;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 @media only screen and (max-width:1000px){
@@ -233,12 +230,28 @@ body{
     .three-box .full-width .box{
         width:100%;
         clear: both;
+        margin:0;
         text-align: center;
-    }
+        padding: 0;
+   }
+   .three-box .full-width .right-box{
+        width:100%;
+        clear: both;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+   }
+   .three-box .full-width .left-box{
+        border:0;
+   }
+   .three-box .full-width .mid-box{
+       border:0;
+   }
     .big-wrapper .full-width .person{
         width: 100%;
         clear: both;  
         margin-bottom: 20px;
+        border:0;
     }
     .big-wrapper .full-width .right-person{
         clear: both;
@@ -273,9 +286,6 @@ body{
         width: 50%;
     }
 
-    .full-wrapper .footer{
-        width: 100%;
-    }
     .full-wrapper .footer .fa{
         font-size: 15px;
     }
